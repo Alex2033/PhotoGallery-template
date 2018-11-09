@@ -25,11 +25,62 @@
       <div class="wrapper-content">
         <!-- begin sidebar -->
         <aside class="sidebar">
-          <header class="sidebar__header"><a class="brand" href="index.html"><span class="brand__name">фото</span><span class="brand__slogan">портфолио</span></a></header>
+          <header class="sidebar__header"><a class="brand" href="index.html"><span class="brand__name">фото</span><span class="brand__slogan">портфолио</span></a>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link active" href="index.html">Главная</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="about.html">Информация</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="gallery.html">Галерея</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="contact.html">Контакты</a></li>
+              </ul>
+            </nav>
+          </header>
         </aside>
         <!-- end sidebar -->
         <!-- begin content-->
-        <main class="content"></main>
+        <main class="content">
+          <div class="swiper-container">
+            <button class="swiper-arrow swiper-arrow-prev"><img src="img/swiper-slider/prev.svg" alt="Swiper slider arrow"></button>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(img/swiper-slider/image-1.jpg)">
+                <div class="caption">
+                  <time datetime="2018-"></time>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image: url(img/swiper-slider/image-2.jpg)">
+                <div class="caption">
+                  <time datetime="2018-"></time>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image: url(img/swiper-slider/image-3.jpg)">
+                <div class="caption">
+                  <time datetime="2018-"></time>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image: url(img/swiper-slider/image-4.jpg)">
+                <div class="caption">
+                  <time datetime="2018-"></time>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image: url(img/swiper-slider/image-5.jpg)">
+                <div class="caption">
+                  <time datetime="2018-"></time>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="swiper-arrow swiper-arrow-next"><img src="img/swiper-slider/next.svg" alt="Swiper slider arrow"></button>
+          </div>
+        </main>
         <!-- end content-->
       </div>
     </div>
@@ -38,6 +89,8 @@
     <footer class="footer"></footer>
     <!-- end footer -->
     <!-- scripts -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/swiper/dist/js/swiper.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,24 @@
+.navigation {
+    padding-left: 5px;
+}
+
+.navigation__item {
+    margin-bottom: 15px;
+}
+
+.navigation__link {
+    display: inline-block;
+    color: @gray;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    font-family: @alt-font;
+    transition: color .15s ease;
+
+    &:hover {
+        color: @main-color;
+    }
+
+    &.active {
+        color: @main-color;
+    }
+}
